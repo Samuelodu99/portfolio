@@ -1,22 +1,4 @@
-import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
-
-const contacts = [
-	{
-		id: 1,
-		name: 'Your Address, Your City, Your Country',
-		icon: <FiMapPin />,
-	},
-	{
-		id: 2,
-		name: 'email@domain.com',
-		icon: <FiMail />,
-	},
-	{
-		id: 3,
-		name: '555 8888 888',
-		icon: <FiPhone />,
-	},
-];
+import { contactData } from '../../data/contactData';
 
 function ContactDetails() {
 	return (
@@ -26,7 +8,7 @@ function ContactDetails() {
 					Contact details
 				</h2>
 				<ul>
-					{contacts.map((contact) => (
+					{contactData.map((contact) => (
 						<li className="flex " key={contact.id}>
 							<i className="text-2xl text-neutral-500 dark:text-neutral-400 mr-4 mt-1">
 								{contact.icon}

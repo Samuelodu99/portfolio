@@ -69,7 +69,7 @@ export const projectsData = [
 		title: 'AI Phishing Detection Tool',
 		url: 'ai-phishing-detection',
 		category: 'AI/ML',
-		img: '/images/mobile-project-2.jpg',
+		img: '/images/phishing-tool-home.png',
 		github: 'https://github.com/Samuelodu99',
 		demo: null,
 		ProjectHeader: {
@@ -78,7 +78,11 @@ export const projectsData = [
 			tags: 'Python / Machine Learning',
 		},
 		ProjectImages: [
-			{ id: uuidv4(), title: 'Phishing Detection', img: '/images/mobile-project-2.jpg' },
+			{ id: uuidv4(), title: 'Phishing Tool Login', img: '/images/phishing-tool-login.png' },
+			{ id: uuidv4(), title: 'Phishing Tool Home', img: '/images/phishing-tool-home.png' },
+			{ id: uuidv4(), title: 'Phishing Tool Features', img: '/images/phishing-tool-features.png' },
+			{ id: uuidv4(), title: 'Phishing Tool Profile', img: '/images/phishing-tool-profile.png' },
+			{ id: uuidv4(), title: 'Phishing Tool Admin', img: '/images/phishing-tool-admin.png' },
 		],
 		ProjectInfo: {
 			ClientHeading: 'About Project',
